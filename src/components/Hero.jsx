@@ -5,31 +5,31 @@ import { ArrowDown } from './Icons'
 // the SVG frame under it is the graceful fallback until the mp4 is present.
 const frames = [
   {
-    fallback: '/hero/frame-1.svg',
+    fallback: '/hero/hero-1.jpg',
     eyebrow: 'SANY Electric Heavy-Duty Trucks',
     title: ['Heavy duty', 'has entered', 'a new era.'],
     sub: 'Built for the loads, distances and operating\nrealities of modern India.',
   },
   {
-    fallback: '/hero/frame-2.svg',
+    fallback: '/hero/hero-2.jpg',
     eyebrow: 'Reliability, engineered in',
     title: ['A truck earns', 'only when', 'it moves.'],
     sub: '98% uptime — built to keep business moving,\nlong after the first trip.',
   },
   {
-    fallback: '/hero/frame-3.svg',
+    fallback: '/hero/hero-3.jpg',
     eyebrow: 'SANY 5565E · Long Range',
     title: ['Range isn’t', 'a number. It’s', 'how far the day goes.'],
     sub: '462 kWh · 480 kW · up to 315 km on a single charge.',
   },
   {
-    fallback: '/hero/frame-4.svg',
+    fallback: '/hero/hero-4.jpg',
     eyebrow: 'The SANY difference',
     title: ['The truck', 'is SANY. So is', 'what makes it electric.'],
     sub: 'Cell, battery, motor, axle and software —\ndeveloped in-house.',
   },
   {
-    fallback: '/hero/frame-5.svg',
+    fallback: '/hero/hero-5.jpg',
     eyebrow: 'Where others end',
     title: ['Their', 'maximum.', 'Our beginning.'],
     sub: 'Where conventional heavy duty reaches its limit,\nSANY starts looking further.',
@@ -75,6 +75,7 @@ export default function Hero() {
         loop
         playsInline
         preload="auto"
+        poster="/hero/hero-poster.jpg"
         onCanPlay={() => setVideoReady(true)}
         onError={() => setVideoReady(false)}
       >

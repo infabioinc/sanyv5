@@ -31,7 +31,7 @@ export default function Argument() {
         {/* right: elevated-road image */}
         <div className="relative min-h-[320px] overflow-hidden lg:min-h-full">
           <img
-            src="/scenes/argument.svg"
+            src="/scenes/argument.jpg"
             alt="A SANY electric truck on an elevated expressway"
             className="h-full w-full object-cover"
           />

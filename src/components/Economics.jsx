@@ -6,7 +6,7 @@ export default function Economics() {
   return (
     <section id="economics" className="relative overflow-hidden bg-sany-ink text-white">
       <img
-        src="/scenes/economics.svg"
+        src="/scenes/economics.jpg"
         alt=""
         className="absolute inset-0 h-full w-full object-cover opacity-30"
       />

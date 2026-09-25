@@ -89,24 +89,11 @@ const part = (label) => `
   <text x="200" y="330" text-anchor="middle" font-family="Manrope, sans-serif" font-size="18" font-weight="700" fill="#141414" letter-spacing="3">${label.toUpperCase()}</text>
 </svg>`
 
-// Hero frames
-const heroLabels = [
-  'HEAVY DUTY · NEW ERA',
-  'BUILT FOR INDIAN ROADS',
-  '5565E · LONG RANGE',
-  'ENGINEERED IN-HOUSE',
-  'WHERE OTHERS END',
-]
-heroLabels.forEach((l, i) => write(`hero/frame-${i + 1}.svg`, scene(1600, 900, { label: l })))
-
-// Truck cards
-write('trucks/5565e.svg', scene(900, 560, { label: '5565E' }))
-write('trucks/5550e.svg', scene(900, 560, { label: '5550E' }))
-write('trucks/5538e.svg', scene(900, 560, { label: '5538E' }))
-
-// Argument band (lighter, elevated road)
-write('scenes/argument.svg', scene(1200, 620, { light: true, label: 'THE ARGUMENT' }))
-write('scenes/economics.svg', scene(1200, 700, { label: 'DAILY ECONOMICS' }))
+// NOTE: the hero video, hero stills, truck cards and scene bands now use REAL
+// SANY footage (cut from the brand film — see public/hero/README.md), so this
+// script only regenerates the technology tiles below. The scene() helper is
+// kept for reference / regenerating a placeholder if a real asset is missing.
+void scene
 
 // Technology parts
 ;['Cell', 'Battery', 'Motor', 'Rear Axle', 'OS'].forEach((p) =>

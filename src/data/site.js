@@ -21,7 +21,7 @@ export const trucks = [
     power: '480 kW',
     reach: '315 km',
     href: '#trucks',
-    image: '/trucks/5565e.svg',
+    image: '/trucks/5565e.jpg',
     flagship: true,
   },
   {
@@ -32,7 +32,7 @@ export const trucks = [
     power: '360 kW',
     reach: '245 km',
     href: '#trucks',
-    image: '/trucks/5550e.svg',
+    image: '/trucks/5550e.jpg',
   },
   {
     model: '5538E',
@@ -42,7 +42,7 @@ export const trucks = [
     power: '360 kW',
     reach: '189 km',
     href: '#trucks',
-    image: '/trucks/5538e.svg',
+    image: '/trucks/5538e.jpg',
   },
 ]
 

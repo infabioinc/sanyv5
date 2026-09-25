@@ -53,13 +53,19 @@ src/
   App.jsx             page assembly
 ```
 
-## Swapping in the real assets
+## Assets
 
-Everything in `/public` is a **branded placeholder**. Replace with the real SANY
-photography from the client Drive (`Sany/Images/HD Images` — `_DSC0181` front 3/4,
-`_DSC0141` side profile, etc.) and the brochure interior page. Keep the same file
-names/paths (or update the `image` fields in `src/data/site.js`). Recommended: real
-JPG/WebP for the hero frames and truck cards; keep the tech tiles on clean white.
+- **Hero video + stills, truck cards, argument/economics bands** — real SANY
+  footage, cut from the brand film (the blue SANY electric truck on the highway,
+  plant and logo). See `public/hero/README.md` for how to re-cut a different
+  segment.
+- **Technology tiles** (`public/tech/*.svg`) — the only remaining placeholders.
+  Swap for real cell / battery / motor / axle / OS shots when available (keep them
+  on a clean white background). Regenerate the placeholder tiles with
+  `node scripts/gen-placeholders.mjs`.
+
+To point a section at a different file, edit the `image` fields in
+`src/data/site.js` (trucks) or the `src` in `Argument.jsx` / `Economics.jsx`.
 
 ## Figures pending SANY sign-off
 
