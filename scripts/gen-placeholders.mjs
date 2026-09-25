@@ -54,7 +54,7 @@ const scene = (w, h, { light = false, label = '' } = {}) => {
   <g transform="translate(${w * 0.5}, ${horizonY}) scale(${(w / 1600).toFixed(3)})">
     <g transform="translate(-360,-250)">
       <rect x="120" y="60" width="230" height="200" rx="14" fill="${cab}"/>
-      <rect x="150" y="90" width="150" height="70" rx="8" fill="${light ? '#cfcfcc' : '#8fbfe0'}" opacity="0.6"/>
+      <rect x="150" y="90" width="150" height="70" rx="8" fill="${light ? '#cfcfcc' : '#3a3a3a'}" opacity="0.6"/>
       <rect x="350" y="20" width="360" height="240" rx="10" fill="${truck}"/>
       <rect x="118" y="252" width="600" height="26" fill="${light ? '#1c1c1c' : '#0d0d0d'}"/>
       <circle cx="215" cy="285" r="40" fill="#0d0d0d"/><circle cx="215" cy="285" r="16" fill="${RED}"/>
