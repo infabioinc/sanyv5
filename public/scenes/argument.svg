@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" width="1200" height="620" role="img" aria-label="THE ARGUMENT">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9e9e7"/>
+      <stop offset="1" stop-color="#f6f6f4"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#E1141B" stop-opacity="0"/>
+      <stop offset="1" stop-color="#E1141B" stop-opacity="0.12"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="620" fill="url(#sky)"/>
+  <rect x="0" y="372" width="1200" height="248" fill="#d9d9d6"/>
+  <rect width="1200" height="620" fill="url(#glow)"/>
+  <line x1="0" y1="372" x2="1200" y2="372" stroke="#E1141B" stroke-width="2" opacity="0.55"/>
+  <!-- lane markers in perspective -->
+  <g stroke="#c7c7c4" stroke-width="3">
+    <line x1="590" y1="386" x2="610" y2="386"/>
+    <line x1="582" y1="427.3333333333333" x2="618" y2="427.3333333333333"/>
+    <line x1="574" y1="468.6666666666667" x2="626" y2="468.6666666666667"/>
+    <line x1="566" y1="510" x2="634" y2="510"/>
+    <line x1="558" y1="551.3333333333334" x2="642" y2="551.3333333333334"/>
+    <line x1="550" y1="592.6666666666667" x2="650" y2="592.6666666666667"/>
+  </g>
+  <!-- heavy-duty tractor silhouette -->
+  <g transform="translate(600, 372) scale(0.750)">
+    <g transform="translate(-360,-250)">
+      <rect x="120" y="60" width="230" height="200" rx="14" fill="#3a3a3a"/>
+      <rect x="150" y="90" width="150" height="70" rx="8" fill="#cfcfcc" opacity="0.6"/>
+      <rect x="350" y="20" width="360" height="240" rx="10" fill="#2a2a2a"/>
+      <rect x="118" y="252" width="600" height="26" fill="#1c1c1c"/>
+      <circle cx="215" cy="285" r="40" fill="#0d0d0d"/><circle cx="215" cy="285" r="16" fill="#E1141B"/>
+      <circle cx="470" cy="285" r="40" fill="#0d0d0d"/><circle cx="470" cy="285" r="16" fill="#3a3a3a"/>
+      <circle cx="560" cy="285" r="40" fill="#0d0d0d"/><circle cx="560" cy="285" r="16" fill="#3a3a3a"/>
+      <rect x="120" y="150" width="10" height="34" fill="#E1141B"/>
+    </g>
+  </g>
+  <text x="1182" y="604" text-anchor="end" font-family="Manrope, sans-serif" font-size="13" fill="#9a9a9a" letter-spacing="1">THE ARGUMENT</text>
+</svg>
