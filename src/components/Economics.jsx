@@ -14,7 +14,7 @@ export default function Economics() {
 
       <div className="relative mx-auto max-w-site section-pad py-16 lg:py-24">
         <p className="eyebrow mb-6">
-          <span className="mr-3 text-sany-red">06</span> Ownership economics
+          <span className="mr-3 text-sany-sky">06</span> Ownership economics
         </p>
         <h2 className="display max-w-3xl text-3xl sm:text-4xl md:text-[2.8rem]">
           A truck never carries just a load.
@@ -34,7 +34,7 @@ export default function Economics() {
             ['98%', 'SANY fleet uptime'],
           ].map(([n, l]) => (
             <div key={l} className="bg-sany-ink px-6 py-8">
-              <div className="text-3xl font-extrabold tabular-nums text-sany-red md:text-4xl">
+              <div className="text-3xl font-extrabold tabular-nums text-sany-sky md:text-4xl">
                 {n}
               </div>
               <div className="mt-2 text-sm text-white/60">{l}</div>
@@ -42,7 +42,7 @@ export default function Economics() {
           ))}
         </div>
 
-        <a href="#cta" className="link-arrow mt-10 text-white hover:text-sany-red">
+        <a href="#cta" className="link-arrow mt-10 text-white hover:text-sany-sky">
           See the reliability case
           <ArrowRight />
         </a>

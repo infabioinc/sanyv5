@@ -91,7 +91,7 @@ export default function Hero() {
             }`}
           >
             {String(i + 1).padStart(2, '0')}
-            {i === active && <span className="mx-auto mt-1 block h-px w-full bg-sany-red" />}
+            {i === active && <span className="mx-auto mt-1 block h-px w-full bg-sany-sky" />}
           </button>
         ))}
       </div>

@@ -9,7 +9,7 @@ export default function Technology() {
           {/* left copy */}
           <div className="flex flex-col justify-center">
             <p className="eyebrow mb-8 text-sany-steel">
-              <span className="mr-3 text-sany-red">04</span> The SANY difference
+              <span className="mr-3 text-sany-sky-deep">04</span> The SANY difference
             </p>
             <h2 className="display text-3xl text-sany-black sm:text-4xl md:text-[2.9rem]">
               <span className="block">The truck is SANY.</span>
@@ -21,7 +21,7 @@ export default function Technology() {
               electric system in-house — for higher performance, greater reliability
               and a real-world advantage.
             </p>
-            <a href="#power" className="link-arrow mt-9 text-sany-black hover:text-sany-red">
+            <a href="#power" className="link-arrow mt-9 text-sany-black hover:text-sany-sky-deep">
               Explore our technology
               <ArrowRight />
             </a>
@@ -38,7 +38,7 @@ export default function Technology() {
                   <span className="block text-[10px] font-semibold uppercase tracking-[0.16em] text-sany-steel">
                     {c.label}
                   </span>
-                  <span className="text-[11px] font-bold text-sany-red">{c.n}</span>
+                  <span className="text-[11px] font-bold text-sany-sky-deep">{c.n}</span>
                 </figcaption>
                 <img
                   src={c.image}

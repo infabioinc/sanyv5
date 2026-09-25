@@ -35,7 +35,7 @@ export default function Header() {
               className="group relative text-[13px] font-medium text-white/85 transition-colors hover:text-white"
             >
               {item.label}
-              <span className="absolute -bottom-1.5 left-0 h-px w-0 bg-sany-red transition-all duration-300 group-hover:w-full" />
+              <span className="absolute -bottom-1.5 left-0 h-px w-0 bg-sany-sky transition-all duration-300 group-hover:w-full" />
             </a>
           ))}
         </nav>

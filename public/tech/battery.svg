@@ -12,6 +12,6 @@
     <line x1="120" y1="240" x2="280" y2="240"/>
     <line x1="200" y1="120" x2="200" y2="280"/>
   </g>
-  <rect x="150" y="150" width="40" height="40" fill="#E1141B" opacity="0.85"/>
+  <rect x="150" y="150" width="40" height="40" fill="#38BDF8" opacity="0.85"/>
   <text x="200" y="330" text-anchor="middle" font-family="Manrope, sans-serif" font-size="18" font-weight="700" fill="#141414" letter-spacing="3">BATTERY</text>
 </svg>

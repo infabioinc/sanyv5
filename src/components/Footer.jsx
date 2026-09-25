@@ -65,7 +65,7 @@ export default function Footer() {
                   href={s.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm font-medium text-white/75 transition-colors hover:text-sany-red"
+                  className="text-sm font-medium text-white/75 transition-colors hover:text-sany-sky"
                 >
                   {s.label}
                 </a>
@@ -73,7 +73,7 @@ export default function Footer() {
             ))}
           </ul>
           <div className="flex items-center gap-2 text-sm text-white/60">
-            <span className="inline-block h-2 w-3 rounded-[1px] bg-sany-red" />
+            <span className="inline-block h-2 w-3 rounded-[1px] bg-sany-sky" />
             India — English
           </div>
         </div>

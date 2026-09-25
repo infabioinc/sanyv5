@@ -17,7 +17,7 @@ export default function Applications() {
             <li key={a} className="flex items-center">
               <span className="text-white/85 transition-colors hover:text-white">{a}</span>
               {i < applications.length - 1 && (
-                <span className="mx-3 text-sany-red md:mx-4">/</span>
+                <span className="mx-3 text-sany-sky md:mx-4">/</span>
               )}
             </li>
           ))}

@@ -13,7 +13,7 @@ export default function Proof() {
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-16">
           <div>
             <p className="eyebrow mb-6 text-sany-steel">
-              <span className="mr-3 text-sany-red">07</span> The proof
+              <span className="mr-3 text-sany-sky-deep">07</span> The proof
             </p>
             <h2 className="display text-3xl text-sany-black sm:text-4xl md:text-[2.8rem]">
               We didn’t claim it.
@@ -25,7 +25,7 @@ export default function Proof() {
               run by the customers themselves. An open challenge was issued to the
               market — and the results are why repeat orders have already begun.
             </p>
-            <a href="#cta" className="link-arrow mt-9 text-sany-black hover:text-sany-red">
+            <a href="#cta" className="link-arrow mt-9 text-sany-black hover:text-sany-sky-deep">
               Read the trial results
               <ArrowRight />
             </a>
@@ -35,7 +35,7 @@ export default function Proof() {
             {stats.map(([n, l]) => (
               <div
                 key={l}
-                className="flex items-baseline gap-5 border-t-2 border-sany-red pt-5"
+                className="flex items-baseline gap-5 border-t-2 border-sany-sky-deep pt-5"
               >
                 <span className="text-4xl font-extrabold tabular-nums text-sany-black md:text-5xl">
                   {n}

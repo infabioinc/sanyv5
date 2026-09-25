@@ -7,7 +7,7 @@ export default function Argument() {
         {/* left: the argument */}
         <div className="section-pad flex flex-col justify-center py-16 lg:py-24">
           <p className="eyebrow mb-8 text-sany-steel">
-            <span className="mr-3 text-sany-red">02</span> The argument
+            <span className="mr-3 text-sany-sky-deep">02</span> The argument
           </p>
           <h2 className="display text-4xl text-sany-black sm:text-5xl md:text-[3.4rem]">
             <span className="block">Electric should change</span>
@@ -21,7 +21,7 @@ export default function Argument() {
           </p>
           <a
             href="#trucks"
-            className="link-arrow mt-10 text-sany-black hover:text-sany-red"
+            className="link-arrow mt-10 text-sany-black hover:text-sany-sky-deep"
           >
             Our approach
             <ArrowRight />

@@ -9,7 +9,7 @@ export default function ThreeTrucks() {
         <div className="flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
           <div>
             <p className="eyebrow mb-6">
-              <span className="mr-3 text-sany-red">03</span> Our trucks
+              <span className="mr-3 text-sany-sky">03</span> Our trucks
             </p>
             <h2 className="display text-4xl sm:text-5xl md:text-[3.4rem]">
               <span className="block">Three trucks.</span>
@@ -21,7 +21,7 @@ export default function ThreeTrucks() {
               Different operations demand different solutions. The SANY electric
               range is built around real work.
             </p>
-            <a href="#applications" className="link-arrow mt-5 text-white hover:text-sany-red md:justify-end">
+            <a href="#applications" className="link-arrow mt-5 text-white hover:text-sany-sky md:justify-end">
               Explore all trucks
               <ArrowRight />
             </a>
@@ -65,7 +65,7 @@ export default function ThreeTrucks() {
                   ))}
                 </dl>
 
-                <a href={t.href} className="link-arrow mt-6 text-white hover:text-sany-red">
+                <a href={t.href} className="link-arrow mt-6 text-white hover:text-sany-sky">
                   Explore
                   <ArrowRight />
                 </a>

@@ -13,7 +13,9 @@ const write = (rel, svg) => {
   writeFileSync(p, svg.trim() + '\n')
 }
 
-const RED = '#E1141B'
+// Accent used in placeholder art — sky blue, to match the palette.
+// (The one red spot in the UI is the Flagship badge, not these graphics.)
+const RED = '#38BDF8'
 
 // ---- cinematic truck scene (hero + cards) ----
 const scene = (w, h, { light = false, label = '' } = {}) => {
