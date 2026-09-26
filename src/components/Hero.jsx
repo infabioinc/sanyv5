@@ -89,7 +89,7 @@ export default function Hero() {
       {/* Copy */}
       <div className="relative mx-auto flex h-full max-w-site flex-col justify-center px-6 pt-16 md:px-10 lg:px-14">
         <p className="eyebrow mb-6">{frames[active].eyebrow}</p>
-        <h1 className="display max-w-[15ch] text-[13vw] leading-[0.9] text-white sm:text-6xl md:text-7xl lg:text-8xl">
+        <h1 className="display max-w-[15ch] text-[9vw] leading-[0.95] text-white sm:text-4xl md:text-5xl lg:text-6xl">
           {frames[active].title.map((line, i) => (
             <span key={i} className="block">
               {line}

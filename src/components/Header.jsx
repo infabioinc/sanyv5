@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { nav } from '../data/site'
-import { ArrowRight, Logo, Search } from './Icons'
+import { ArrowRight, Search } from './Icons'
+import SanyLogo from './SanyLogo'
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false)
@@ -23,7 +24,7 @@ export default function Header() {
     >
       <div className="mx-auto flex h-[68px] max-w-site items-center justify-between px-6 md:px-10 lg:px-14">
         <a href="#top" className="flex items-center text-white">
-          <Logo />
+          <SanyLogo variant="white" className="h-6 w-auto md:h-7" />
         </a>
 
         {/* Desktop nav */}

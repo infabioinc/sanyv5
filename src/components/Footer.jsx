@@ -1,5 +1,6 @@
 import { footerColumns, social, legal } from '../data/site'
-import { ArrowRight, Logo } from './Icons'
+import { ArrowRight } from './Icons'
+import SanyLogo from './SanyLogo'
 import SiteCredit from './SiteCredit'
 
 export default function Footer() {
@@ -28,7 +29,7 @@ export default function Footer() {
       <div className="mx-auto max-w-site section-pad py-14">
         <div className="grid grid-cols-2 gap-x-6 gap-y-10 md:grid-cols-3 lg:grid-cols-6">
           <div className="col-span-2 md:col-span-3 lg:col-span-1">
-            <Logo />
+            <SanyLogo variant="white" className="h-7 w-auto" />
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-white/50">
               SANY India — electric heavy-duty trucks, built for the loads,
               distances and operating realities of modern India.
