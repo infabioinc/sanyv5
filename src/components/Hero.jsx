@@ -87,7 +87,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-transparent to-black/40" />
 
       {/* Copy */}
-      <div className="relative mx-auto flex h-full max-w-site flex-col justify-center px-6 pt-16 md:px-10 lg:px-14">
+      <div className="relative mx-auto flex h-full max-w-site flex-col justify-end px-6 pb-24 pt-40 md:px-10 lg:px-14">
         <p className="eyebrow mb-6">{frames[active].eyebrow}</p>
         <h1 className="display max-w-[16ch] text-2xl leading-[1.1] text-white sm:text-3xl lg:text-4xl">
           {frames[active].title.map((line, i) => (
