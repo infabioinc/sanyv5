@@ -21,15 +21,6 @@ function Caret() {
   )
 }
 
-function Globe() {
-  return (
-    <svg width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-      <circle cx="8" cy="8" r="6.2" stroke="currentColor" strokeWidth="1.2" />
-      <path d="M2 8h12M8 2c1.8 1.7 1.8 10.3 0 12M8 2c-1.8 1.7-1.8 10.3 0 12" stroke="currentColor" strokeWidth="1.2" />
-    </svg>
-  )
-}
-
 function SearchIcon() {
   return (
     <svg width="16" height="16" viewBox="0 0 18 18" fill="none" aria-hidden="true">
@@ -64,14 +55,6 @@ export default function Header() {
         scrolled ? 'shadow-[0_1px_0_rgba(0,0,0,0.06)]' : ''
       }`}
     >
-      {/* Utility strip */}
-      <div className="border-b border-slate-100">
-        <div className="mx-auto flex h-8 max-w-site items-center justify-end gap-1.5 px-6 text-[12px] font-medium text-slate-500 md:px-10 lg:px-14">
-          <Globe />
-          <span>India</span>
-        </div>
-      </div>
-
       {/* Main bar */}
       <div className="mx-auto flex h-16 max-w-site items-center justify-between px-6 md:px-10 lg:px-14">
         <a href="#top" aria-label="SANY" className="flex items-center">
