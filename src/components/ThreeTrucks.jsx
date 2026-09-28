@@ -38,11 +38,6 @@ export default function ThreeTrucks() {
                   alt={`SANY ${t.model} — ${t.range}`}
                   className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.04]"
                 />
-                {t.flagship && (
-                  <span className="absolute left-4 top-4 bg-sany-red px-2.5 py-1 text-white text-[10px] font-bold uppercase tracking-[0.16em]">
-                    Flagship
-                  </span>
-                )}
                 <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/80 to-transparent" />
                 <span className="absolute bottom-4 left-4 text-3xl font-extrabold tracking-wide text-white">
                   {t.model}
