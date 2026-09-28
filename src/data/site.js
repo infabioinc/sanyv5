@@ -21,7 +21,7 @@ export const trucks = [
     power: '480 kW',
     reach: '315 km',
     href: '#trucks',
-    image: '/trucks/5565e.jpg',
+    image: '/trucks/5565e.jpg', cutout: '/trucks/5565e-cutout.png',
     flagship: true,
   },
   {
@@ -32,7 +32,7 @@ export const trucks = [
     power: '360 kW',
     reach: '245 km',
     href: '#trucks',
-    image: '/trucks/5550e.jpg',
+    image: '/trucks/5550e.jpg', cutout: '/trucks/5550e-cutout.png',
   },
   {
     model: '5538E',
@@ -42,7 +42,7 @@ export const trucks = [
     power: '360 kW',
     reach: '189 km',
     href: '#trucks',
-    image: '/trucks/5538e.jpg',
+    image: '/trucks/5538e.jpg', cutout: '/trucks/5538e-cutout.png',
   },
 ]
 
