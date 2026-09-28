@@ -29,7 +29,7 @@ export default function Argument() {
         </div>
 
         {/* right: elevated-road image */}
-        <div className="relative min-h-[320px] overflow-hidden lg:min-h-full">
+        <div className="relative aspect-[16/10] overflow-hidden lg:aspect-auto lg:min-h-full">
           <img
             src="/scenes/argument.jpg"
             alt="A SANY electric truck on an elevated expressway"

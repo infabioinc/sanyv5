@@ -32,7 +32,7 @@ export default function ThreeTrucks() {
         <div className="mt-12 grid grid-cols-1 gap-px overflow-hidden rounded-sm border border-sany-mist bg-sany-mist md:grid-cols-3">
           {trucks.map((t) => (
             <article key={t.model} className="group relative flex flex-col bg-white">
-              <div className="relative aspect-[16/10] overflow-hidden bg-sany-mist">
+              <div className="relative aspect-[16/9] overflow-hidden bg-sany-mist">
                 <img
                   src={t.image}
                   alt={`SANY ${t.model} — ${t.range}`}
