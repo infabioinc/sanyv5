@@ -15,7 +15,7 @@ export default function Service() {
       <div className="mx-auto max-w-site section-pad py-16 lg:py-24">
         <div className="max-w-2xl">
           <p className="eyebrow mb-6 text-sany-steel">
-            <span className="mr-3 text-sany-sky-deep">08</span> Service &amp; uptime
+            <span className="mr-3 text-sany-sky-deep">07</span> Service &amp; uptime
           </p>
           <h2 className="display text-3xl text-sany-black sm:text-4xl md:text-[2.8rem]">
             A truck is only as good

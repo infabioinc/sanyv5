@@ -14,7 +14,7 @@ export default function Economics() {
 
       <div className="relative mx-auto max-w-site section-pad py-16 lg:py-24">
         <p className="eyebrow mb-6">
-          <span className="mr-3 text-sany-sky">06</span> Ownership economics
+          <span className="mr-3 text-sany-sky">02</span> Ownership economics
         </p>
         <h2 className="display max-w-3xl text-3xl sm:text-4xl md:text-[2.8rem]">
           A truck never carries just a load.

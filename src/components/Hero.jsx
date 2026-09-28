@@ -100,9 +100,9 @@ export default function Hero() {
           {frames[active].sub}
         </p>
 
-        <a href="#argument" className="link-arrow mt-10 text-white/90 hover:text-white">
+        <a href="#cta" className="link-arrow mt-10 text-white/90 hover:text-white">
           <span className="rule mr-1" />
-          Explore the range
+          Book a trial
           <ArrowDown className="ml-1" />
         </a>
       </div>

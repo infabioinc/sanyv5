@@ -9,7 +9,7 @@ export default function Technology() {
           {/* left copy */}
           <div className="flex flex-col justify-center">
             <p className="eyebrow mb-8 text-sany-steel">
-              <span className="mr-3 text-sany-sky-deep">04</span> The SANY difference
+              <span className="mr-3 text-sany-sky-deep">06</span> The SANY difference
             </p>
             <h2 className="display text-3xl text-sany-black sm:text-4xl md:text-[2.9rem]">
               <span className="block">The truck is SANY.</span>

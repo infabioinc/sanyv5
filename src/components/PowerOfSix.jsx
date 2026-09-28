@@ -6,7 +6,7 @@ export default function PowerOfSix() {
       <div className="mx-auto max-w-site section-pad py-16 lg:py-24">
         <div className="max-w-2xl">
           <p className="eyebrow mb-6">
-            <span className="mr-3 text-sany-sky">05</span> The power of six
+            <span className="mr-3 text-sany-sky">03</span> The power of six
           </p>
           <h2 className="display text-4xl sm:text-5xl md:text-[3.2rem]">
             Six reasons.

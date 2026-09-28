@@ -9,7 +9,7 @@ export default function ThreeTrucks() {
         <div className="flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
           <div>
             <p className="eyebrow mb-6">
-              <span className="mr-3 text-sany-sky">03</span> Our trucks
+              <span className="mr-3 text-sany-sky">05</span> Our trucks
             </p>
             <h2 className="display text-4xl sm:text-5xl md:text-[3.4rem]">
               <span className="block">Three trucks.</span>

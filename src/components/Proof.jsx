@@ -13,7 +13,7 @@ export default function Proof() {
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-16">
           <div>
             <p className="eyebrow mb-6 text-sany-steel">
-              <span className="mr-3 text-sany-sky-deep">07</span> The proof
+              <span className="mr-3 text-sany-sky-deep">04</span> The proof
             </p>
             <h2 className="display text-3xl text-sany-black sm:text-4xl md:text-[2.8rem]">
               We didn’t claim it.

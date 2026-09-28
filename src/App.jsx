@@ -18,12 +18,12 @@ export default function App() {
       <main>
         <Hero />
         <Argument />
-        <ThreeTrucks />
-        <Applications />
-        <Technology />
-        <PowerOfSix />
         <Economics />
+        <PowerOfSix />
         <Proof />
+        <Applications />
+        <ThreeTrucks />
+        <Technology />
         <Service />
         <CTA />
       </main>
