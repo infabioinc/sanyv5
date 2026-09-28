@@ -6,9 +6,9 @@ import { ArrowDown } from './Icons'
 const frames = [
   {
     fallback: '/hero/hero-1.jpg',
-    eyebrow: 'SANY Electric Heavy-Duty Trucks',
-    title: ['Heavy duty', 'has entered', 'a new era.'],
-    sub: 'Built for the loads, distances and operating\nrealities of modern India.',
+    eyebrow: 'Heavy-duty electric for India',
+    title: ['Keep your', 'business', 'moving.'],
+    sub: 'Built for the loads, distances and uptime\nthat real Indian operations demand.',
   },
   {
     fallback: '/hero/hero-2.jpg',

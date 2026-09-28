@@ -7,6 +7,7 @@ import PowerOfSix from './components/PowerOfSix'
 import Economics from './components/Economics'
 import Applications from './components/Applications'
 import Proof from './components/Proof'
+import Service from './components/Service'
 import CTA from './components/CTA'
 import Footer from './components/Footer'
 
@@ -23,6 +24,7 @@ export default function App() {
         <PowerOfSix />
         <Economics />
         <Proof />
+        <Service />
         <CTA />
       </main>
       <Footer />

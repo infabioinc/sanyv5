@@ -5,21 +5,13 @@ import SanyLogo from './SanyLogo'
 // with the red SANY logo + search + REQUEST QUOTE, and a nav strip below.
 // Links are wired to v5's on-page sections.
 const navItems = [
-  { label: 'Models', href: '#trucks', caret: true },
-  { label: 'Specifications', href: '#technology', caret: false },
-  { label: 'Technology', href: '#technology', caret: true },
-  { label: 'Why SANY', href: '#power', caret: true },
-  { label: 'Deployment Corridors', href: '#applications', caret: false },
-  { label: 'Network', href: '#service', caret: true },
+  { label: 'Trucks', href: '#trucks' },
+  { label: 'Applications', href: '#applications' },
+  { label: 'Electric Technology', href: '#technology' },
+  { label: 'Ownership', href: '#economics' },
+  { label: 'Insights', href: '#insights' },
+  { label: 'Services', href: '#service' },
 ]
-
-function Caret() {
-  return (
-    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true" className="mt-0.5">
-      <path d="M3 4.5 6 7.5 9 4.5" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
-    </svg>
-  )
-}
 
 function SearchIcon() {
   return (
@@ -103,7 +95,6 @@ export default function Header() {
               className="flex items-center gap-1 text-[15px] font-semibold text-slate-800 transition-colors hover:text-sany-red"
             >
               {item.label}
-              {item.caret && <Caret />}
             </a>
           ))}
         </div>
