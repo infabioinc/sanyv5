@@ -32,19 +32,12 @@ export default function Technology() {
             {components.map((c) => (
               <figure
                 key={c.n}
-                className="group flex flex-col items-center bg-sany-mist px-3 pb-5 pt-6 transition-colors hover:bg-white"
+                className="group flex min-h-[150px] flex-col justify-between bg-sany-mist p-5 transition-colors hover:bg-white"
               >
-                <figcaption className="mb-3 text-center">
-                  <span className="block text-[10px] font-semibold uppercase tracking-[0.16em] text-sany-steel">
-                    {c.label}
-                  </span>
-                  <span className="text-[11px] font-bold text-sany-sky-deep">{c.n}</span>
+                <span className="text-sm font-bold tabular-nums text-sany-sky-deep">{c.n}</span>
+                <figcaption className="text-[15px] font-bold uppercase leading-tight tracking-[0.04em] text-sany-black">
+                  {c.label}
                 </figcaption>
-                <img
-                  src={c.image}
-                  alt={c.label}
-                  className="aspect-square w-full max-w-[130px] object-contain transition-transform duration-500 group-hover:-translate-y-1"
-                />
               </figure>
             ))}
           </div>
