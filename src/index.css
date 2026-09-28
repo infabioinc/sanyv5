@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  @apply bg-sany-black text-white font-sans antialiased;
+  @apply bg-white text-sany-black font-sans antialiased;
   margin: 0;
   text-rendering: optimizeLegibility;
 }
