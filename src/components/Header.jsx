@@ -55,7 +55,7 @@ export default function Header() {
 
         <div className="flex items-center gap-4">
           {/* Search */}
-          <label className="hidden items-center gap-2 rounded-full border border-slate-200 px-4 py-2 text-slate-400 focus-within:border-slate-400 md:flex">
+          <label className="hidden items-center gap-2 rounded-none border border-slate-200 px-4 py-2 text-slate-400 focus-within:border-slate-400 md:flex">
             <SearchIcon />
             <input
               type="text"
@@ -66,7 +66,7 @@ export default function Header() {
 
           <a
             href="#cta"
-            className="hidden items-center gap-1.5 rounded-md bg-sany-black px-5 py-2.5 text-[13px] font-bold uppercase tracking-[0.08em] text-white transition-colors hover:bg-sany-ink md:inline-flex"
+            className="hidden items-center gap-1.5 rounded-none bg-sany-black px-5 py-2.5 text-[13px] font-bold uppercase tracking-[0.08em] text-white transition-colors hover:bg-sany-ink md:inline-flex"
           >
             Request Quote
             <Chevron />
@@ -117,7 +117,7 @@ export default function Header() {
             <a
               href="#cta"
               onClick={() => setOpen(false)}
-              className="mt-3 inline-flex items-center justify-center gap-1.5 rounded-md bg-sany-black px-5 py-3 text-[13px] font-bold uppercase tracking-[0.08em] text-white"
+              className="mt-3 inline-flex items-center justify-center gap-1.5 rounded-none bg-sany-black px-5 py-3 text-[13px] font-bold uppercase tracking-[0.08em] text-white"
             >
               Request Quote
               <Chevron />
